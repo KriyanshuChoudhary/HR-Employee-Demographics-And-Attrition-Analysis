@@ -39,7 +39,7 @@ It was built using **Power BI**, with data cleaning to ensure data accuracy and 
 ## Dashboard Preview
 Here’s a look at the HR Attrition Dashboard:  
 
-![Dashboard Overview](Dashboard-Overview.png)
+![Dashboard Overview]("Dashboard Overview.png")
 
 ---
 
