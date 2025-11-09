@@ -1,38 +1,43 @@
-# HR-Attrition-Employee-Dashboard
-An interactive **Power BI dashboard** designed to analyze **employee attrition trends** and provide actionable insights for HR decision-making.  
+# HR Attrition Employee Analysis (Python + Power BI)
+A comprehensive data analytics project combining Python for data cleaning and preprocessing with Power BI for interactive visualization. The project analyzes employee attrition trends to help HR teams identify key factors influencing employee turnover and make data-driven retention decisions.
 
 ---
-## Project Overview 
-The **HR Attrition Employee Dashboard** helps HR teams understand **why employees leave** by analyzing key metrics such as attrition rate, job satisfaction, salary, and tenure.  
-It was built using **Power BI**, with data cleaning to ensure data accuracy and remove duplicates.
+
+## Project Overview
+- The HR Attrition Employee Analysis project explores the reasons behind employee turnover using demographic, satisfaction, and performance data.
+- The dataset was cleaned and validated in Python, then visualized through a Power BI dashboard to deliver clear, actionable insights for HR teams.
 
 ---
+
 ## Objectives  
 - Identify key factors contributing to **employee attrition**.  
 - Analyze attrition by **age, job role, department, education, and experience**.  
 - Provide HR managers with **insightful visuals** for data-driven decision-making.  
 - Maintain **data accuracy** by removing duplicates and verifying consistency.
 
+---
+
 ## Tools Used
-- **Power BI** - Dashboard design & data visualization.
-- **Python (Pandas, NumPy)** - Duplicate removal and data accuracy checks.
+- **Power BI** - Interactive dashboard and KPI visualization.
+- **Python (Pandas, Matplotlib, Seaborn)** - Data cleaning, analysis, and EDA.
+
+---
 
 ## Key Performance Indicators (KPIs)  
- 
-- **Average Age** of Employees
-- **Average Salary**
-- **Attrition Rate%**
-- **Employees Left**
-- **Total Employees**
+- **Average Age** of Employees - 29.6 years
+- **Average Salary** - $114.12K
+- **Attrition Rate%** - 18.52%
+- **Employees Left** - 237
+- **Total Employees** - 1280
 
 ---
 
 ## Dashboard Insights  
-- Higher attrition rates observed in **Sales and Research** departments.
-- Employees aged **25–35** are most likely to leave.
-- **Lower income levels** are strongly correlated with higher attrition.
-- Employees with **less than 3 years of experience** have higher turnover.
-- Job satisfaction and work-life balance play a **crucial role** in retention.
+- The Sales and Research & Development departments together account for 70% of total attrition.
+- Employees aged 25–35 represent over 60% of attrition cases, indicating mid-career dissatisfaction.
+- Low-income employees (<₹5,000) show a 2.3× higher attrition rate than higher earners.
+- Employees with less than 3 years of service contribute to 45% of total attrition.
+- Departments with high job satisfaction scores report 30% lower turnover.
 
 ---
 
@@ -43,10 +48,8 @@ Here’s a look at the HR Attrition Dashboard:
 
 ---
 
-
 ## Learnings  
-
-- Improved understanding of **Power BI data modeling** and DAX functions.
-- Hands-on experience in **Python data preprocessing**.
-- Strengthened knowledge of **HR analytics** and **data storytelling**.
-- Practiced **KPI design** and effective **visual communication**.
+- Gained hands-on experience in **Data Cleaning** and **Preprocessing** using **Python.**
+- Strengthened understanding of data modeling, **DAX Functions**, and **KPI** creation in **Power BI.**
+- Developed skills in HR analytics, focusing on retention and workforce trends.
+- Enhanced ability to turn complex datasets into clear, quantifiable business insights.
